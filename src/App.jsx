@@ -108,7 +108,9 @@ function App() {
           <div className="flex flex-col space-y-10 justify-center items-center">
             <img src="/images/icon-success.svg" className="w-1/4" alt="" />
             <div className="md:w-2/4  space-y-10 flex flex-col justify-center items-center">
-              <h1 className="text-4xl md:text-6xl">Thanks for subscribing!</h1>
+              <h1 className="text-4xl font-bold md:text-6xl">
+                Thanks for subscribing!
+              </h1>
               <p>
                 A confirmation email has been sent to <strong>{email}</strong>.{" "}
                 Please open it and click the button inside to confirm your
